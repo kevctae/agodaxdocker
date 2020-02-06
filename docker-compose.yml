@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+    todo:
+        build: .
+        image: my-todo
+        ports:
+            - "4000:3000"
